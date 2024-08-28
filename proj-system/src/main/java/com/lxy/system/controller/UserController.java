@@ -1,4 +1,4 @@
-package com.org.mollcol.controller;
+package com.lxy.system.controller;
 
 import com.org.mollcol.model.po.UserPO;
 import com.org.mollcol.service.UserService;
@@ -28,11 +28,6 @@ public class UserController {
     public UserPO selectUser(@RequestBody UserPO userPO) {
         logger.info("selectUser user:{}", userPO);
         return userService.selectUser(userPO);
-    }
-    @RequestMapping(value = "/queryUserList", method = RequestMethod.POST)
-    public UserPO queryUserList(@RequestBody UserPO userPO) {
-        logger.info("queryUserList user:{}", userPO);
-        return userService.queryUserList(userPO);
     }
 
 }
