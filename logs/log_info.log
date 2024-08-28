@@ -1,0 +1,331 @@
+2024-03-14 11:12:23.303 [main] INFO  com.org.mollcol.FirstApplication - Starting FirstApplication using Java 1.8.0_402 on MacBook-Pro.local with PID 6829 (/Users/mollcol/MyTask/first/target/classes started by mollcol in /Users/mollcol/MyTask/first)
+2024-03-14 11:12:23.304 [main] INFO  com.org.mollcol.FirstApplication - No active profile set, falling back to default profiles: default
+2024-03-14 11:12:23.666 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-03-14 11:12:23.670 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-14 11:12:23.670 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-14 11:12:23.670 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-03-14 11:12:23.692 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-14 11:12:23.692 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 368 ms
+2024-03-14 11:12:23.873 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-14 11:12:23.946 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-14 11:12:23.979 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-14 11:12:23.986 [main] INFO  com.org.mollcol.FirstApplication - Started FirstApplication in 0.878 seconds (JVM running for 1.106)
+2024-03-14 11:12:33.114 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-14 11:12:33.114 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-14 11:12:33.114 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-03-14 11:12:33.146 [http-nio-8080-exec-2] INFO  com.org.mollcol.controller.UserController - insert user:UserPO(userId=null, userName=mollcol, firstName=null, lastName=null, email=121k725@qq.com, password=1223456, dateOfBirth=1998-10-21, registrationDate=null)
+2024-03-14 11:12:33.159 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-14 11:12:33.203 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-14 11:40:47.878 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-14 11:40:47.879 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-14 11:40:47.882 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-14 11:40:49.530 [main] INFO  com.org.mollcol.FirstApplication - Starting FirstApplication using Java 1.8.0_402 on bogon with PID 7111 (/Users/mollcol/MyTask/first/target/classes started by mollcol in /Users/mollcol/MyTask/first)
+2024-03-14 11:40:49.531 [main] INFO  com.org.mollcol.FirstApplication - No active profile set, falling back to default profiles: default
+2024-03-14 11:40:49.916 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-03-14 11:40:49.920 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-14 11:40:49.920 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-14 11:40:49.920 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-03-14 11:40:49.945 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-14 11:40:49.945 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 395 ms
+2024-03-14 11:40:50.153 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-14 11:40:50.257 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-14 11:40:50.269 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-14 11:40:50.274 [main] INFO  com.org.mollcol.FirstApplication - Started FirstApplication in 0.952 seconds (JVM running for 1.186)
+2024-03-14 11:40:56.624 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-14 11:40:56.624 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-14 11:40:56.624 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-03-14 11:40:56.659 [http-nio-8080-exec-2] INFO  com.org.mollcol.controller.UserController - insert user:UserPO(userId=null, userName=mollcol, firstName=null, lastName=null, email=121d25@qq.com, password=1223456, dateOfBirth=1998-10-21, registrationDate=null)
+2024-03-14 11:40:56.673 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-14 11:40:56.718 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-14 11:42:19.787 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-14 11:42:19.788 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-14 11:42:19.791 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-14 11:42:20.872 [main] INFO  com.org.mollcol.FirstApplication - Starting FirstApplication using Java 1.8.0_402 on bogon with PID 7147 (/Users/mollcol/MyTask/first/target/classes started by mollcol in /Users/mollcol/MyTask/first)
+2024-03-14 11:42:20.873 [main] INFO  com.org.mollcol.FirstApplication - No active profile set, falling back to default profiles: default
+2024-03-14 11:42:21.260 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-03-14 11:42:21.263 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-14 11:42:21.264 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-14 11:42:21.264 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-03-14 11:42:21.287 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-14 11:42:21.287 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 395 ms
+2024-03-14 11:42:21.486 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-14 11:42:21.589 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-14 11:42:21.601 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-14 11:42:21.607 [main] INFO  com.org.mollcol.FirstApplication - Started FirstApplication in 0.941 seconds (JVM running for 1.173)
+2024-03-14 11:42:43.228 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-14 11:42:43.228 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-14 11:42:43.229 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-03-14 11:42:43.269 [http-nio-8080-exec-1] INFO  com.org.mollcol.controller.UserController - insert user:UserPO(userId=null, userName=mollcol, firstName=null, lastName=null, email=1q5@qq.com, password=1223456, dateOfBirth=1998-10-21, registrationDate=null)
+2024-03-14 11:42:43.283 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-14 11:42:43.330 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-14 11:51:06.574 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-14 11:51:06.574 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-14 11:51:06.576 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-14 14:04:40.694 [main] INFO  com.org.mollcol.FirstApplication - Starting FirstApplication using Java 1.8.0_402 on MacBook-Pro.local with PID 8014 (/Users/mollcol/MyTask/first/target/classes started by mollcol in /Users/mollcol/MyTask/first)
+2024-03-14 14:04:40.696 [main] INFO  com.org.mollcol.FirstApplication - No active profile set, falling back to default profiles: default
+2024-03-14 14:04:41.098 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-03-14 14:04:41.102 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:04:41.102 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-14 14:04:41.103 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-03-14 14:04:41.127 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-14 14:04:41.127 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 408 ms
+2024-03-14 14:04:41.322 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:04:41.428 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:04:41.439 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-14 14:04:41.444 [main] INFO  com.org.mollcol.FirstApplication - Started FirstApplication in 0.962 seconds (JVM running for 1.188)
+2024-03-14 14:07:40.581 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:07:41.765 [main] INFO  com.org.mollcol.FirstApplication - Starting FirstApplication using Java 1.8.0_402 on MacBook-Pro.local with PID 8052 (/Users/mollcol/MyTask/first/target/classes started by mollcol in /Users/mollcol/MyTask/first)
+2024-03-14 14:07:41.766 [main] INFO  com.org.mollcol.FirstApplication - No active profile set, falling back to default profiles: default
+2024-03-14 14:07:42.151 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-03-14 14:07:42.154 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:07:42.155 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-14 14:07:42.155 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-03-14 14:07:42.178 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-14 14:07:42.179 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 392 ms
+2024-03-14 14:07:42.384 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:07:42.507 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:07:42.518 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-14 14:07:42.523 [main] INFO  com.org.mollcol.FirstApplication - Started FirstApplication in 0.983 seconds (JVM running for 1.278)
+2024-03-14 14:07:48.240 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-14 14:07:48.240 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-14 14:07:48.241 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-03-14 14:07:48.277 [http-nio-8080-exec-2] INFO  com.org.mollcol.controller.UserController - insert user:UserPO(userId=null, userName=mollcol, firstName=null, lastName=null, email=1qw5@qq.com, password=1223456, dateOfBirth=1998-10-21, registrationDate=null)
+2024-03-14 14:07:48.291 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-14 14:07:48.341 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-14 14:11:54.504 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:11:54.505 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-14 14:11:54.508 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-14 14:11:55.704 [main] INFO  com.org.mollcol.FirstApplication - Starting FirstApplication using Java 1.8.0_402 on MacBook-Pro.local with PID 8116 (/Users/mollcol/MyTask/first/target/classes started by mollcol in /Users/mollcol/MyTask/first)
+2024-03-14 14:11:55.706 [main] INFO  com.org.mollcol.FirstApplication - No active profile set, falling back to default profiles: default
+2024-03-14 14:11:56.119 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-03-14 14:11:56.123 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:11:56.124 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-14 14:11:56.124 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-03-14 14:11:56.148 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-14 14:11:56.148 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 421 ms
+2024-03-14 14:11:56.352 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:11:56.450 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:11:56.461 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-14 14:11:56.467 [main] INFO  com.org.mollcol.FirstApplication - Started FirstApplication in 0.998 seconds (JVM running for 1.293)
+2024-03-14 14:12:02.390 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-14 14:12:02.390 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-14 14:12:02.391 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-03-14 14:12:02.431 [http-nio-8080-exec-2] INFO  com.org.mollcol.controller.UserController - insert user:UserPO(userId=null, userName=mollcol, firstName=null, lastName=null, email=1qwe5@qq.com, password=1223456, dateOfBirth=1998-10-21, registrationDate=null)
+2024-03-14 14:12:02.445 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-14 14:12:02.491 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-14 14:22:11.957 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:22:11.958 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-14 14:22:11.961 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-14 14:23:20.132 [main] INFO  com.org.mollcol.FirstApplication - Starting FirstApplication using Java 1.8.0_402 on MacBook-Pro.local with PID 8312 (/Users/mollcol/MyTask/first/target/classes started by mollcol in /Users/mollcol/MyTask/first)
+2024-03-14 14:23:20.133 [main] INFO  com.org.mollcol.FirstApplication - No active profile set, falling back to default profiles: default
+2024-03-14 14:23:20.516 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-03-14 14:23:20.519 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:23:20.520 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-14 14:23:20.520 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-03-14 14:23:20.542 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-14 14:23:20.542 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 388 ms
+2024-03-14 14:23:20.737 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:23:20.869 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:23:20.880 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-14 14:23:20.885 [main] INFO  com.org.mollcol.FirstApplication - Started FirstApplication in 0.958 seconds (JVM running for 1.187)
+2024-03-14 14:25:08.736 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:25:09.846 [main] INFO  com.org.mollcol.FirstApplication - Starting FirstApplication using Java 1.8.0_402 on MacBook-Pro.local with PID 8339 (/Users/mollcol/MyTask/first/target/classes started by mollcol in /Users/mollcol/MyTask/first)
+2024-03-14 14:25:09.847 [main] INFO  com.org.mollcol.FirstApplication - No active profile set, falling back to default profiles: default
+2024-03-14 14:25:10.232 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-03-14 14:25:10.235 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:25:10.236 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-14 14:25:10.236 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-03-14 14:25:10.258 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-14 14:25:10.258 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 391 ms
+2024-03-14 14:25:10.460 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:25:10.564 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:25:10.575 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-14 14:25:10.580 [main] INFO  com.org.mollcol.FirstApplication - Started FirstApplication in 0.952 seconds (JVM running for 1.192)
+2024-03-14 14:25:17.507 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-14 14:25:17.507 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-14 14:25:17.508 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-03-14 14:25:17.545 [http-nio-8080-exec-2] INFO  com.org.mollcol.controller.UserController - insert user:UserPO(userId=null, userName=mollcol, firstName=null, lastName=null, email=1qwe85@qq.com, password=1223456, dateOfBirth=1998-10-21, registrationDate=null)
+2024-03-14 14:25:17.559 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-14 14:25:17.603 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-14 14:30:51.124 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:30:51.124 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-14 14:30:51.127 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-14 14:30:52.266 [main] INFO  com.org.mollcol.FirstApplication - Starting FirstApplication using Java 1.8.0_402 on MacBook-Pro.local with PID 8459 (/Users/mollcol/MyTask/first/target/classes started by mollcol in /Users/mollcol/MyTask/first)
+2024-03-14 14:30:52.268 [main] INFO  com.org.mollcol.FirstApplication - No active profile set, falling back to default profiles: default
+2024-03-14 14:30:52.675 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-03-14 14:30:52.680 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:30:52.680 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-14 14:30:52.680 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-03-14 14:30:52.706 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-14 14:30:52.707 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 419 ms
+2024-03-14 14:30:52.917 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:30:53.016 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:30:53.027 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-14 14:30:53.033 [main] INFO  com.org.mollcol.FirstApplication - Started FirstApplication in 0.982 seconds (JVM running for 1.251)
+2024-03-14 14:30:57.364 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-14 14:30:57.365 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-14 14:30:57.366 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-03-14 14:30:57.402 [http-nio-8080-exec-2] INFO  com.org.mollcol.controller.UserController - insert user:UserPO(userId=null, userName=mollcol, firstName=null, lastName=null, email=1qwe8dd5@qq.com, password=1223456, dateOfBirth=1998-10-21, registrationDate=null)
+2024-03-14 14:30:57.417 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-14 14:30:57.464 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-14 14:35:31.588 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:35:31.589 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-14 14:35:31.592 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-14 14:35:32.717 [main] INFO  com.org.mollcol.FirstApplication - Starting FirstApplication using Java 1.8.0_402 on MacBook-Pro.local with PID 8520 (/Users/mollcol/MyTask/first/target/classes started by mollcol in /Users/mollcol/MyTask/first)
+2024-03-14 14:35:32.718 [main] INFO  com.org.mollcol.FirstApplication - No active profile set, falling back to default profiles: default
+2024-03-14 14:35:33.107 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-03-14 14:35:33.111 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:35:33.111 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-14 14:35:33.111 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-03-14 14:35:33.134 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-14 14:35:33.134 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 396 ms
+2024-03-14 14:35:33.331 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:35:33.443 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:35:33.455 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-14 14:35:33.462 [main] INFO  com.org.mollcol.FirstApplication - Started FirstApplication in 0.961 seconds (JVM running for 1.201)
+2024-03-14 14:35:42.278 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-14 14:35:42.278 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-14 14:35:42.279 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-03-14 14:35:42.315 [http-nio-8080-exec-2] INFO  com.org.mollcol.controller.UserController - insert user:UserPO(userId=null, userName=mollcol, firstName=null, lastName=null, email=1qwe8did5@qq.com, password=1223456, dateOfBirth=1998-10-21, registrationDate=null)
+2024-03-14 14:35:42.330 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-14 14:35:42.377 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-14 14:36:33.880 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:36:33.880 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-14 14:36:33.883 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-14 14:36:34.987 [main] INFO  com.org.mollcol.FirstApplication - Starting FirstApplication using Java 1.8.0_402 on MacBook-Pro.local with PID 8541 (/Users/mollcol/MyTask/first/target/classes started by mollcol in /Users/mollcol/MyTask/first)
+2024-03-14 14:36:34.989 [main] INFO  com.org.mollcol.FirstApplication - No active profile set, falling back to default profiles: default
+2024-03-14 14:36:35.375 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-03-14 14:36:35.378 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:36:35.379 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-14 14:36:35.379 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-03-14 14:36:35.402 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-14 14:36:35.402 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 393 ms
+2024-03-14 14:36:35.604 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:36:35.716 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:36:35.729 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-14 14:36:35.735 [main] INFO  com.org.mollcol.FirstApplication - Started FirstApplication in 0.957 seconds (JVM running for 1.203)
+2024-03-14 14:36:40.939 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-14 14:36:40.939 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-14 14:36:40.940 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-03-14 14:36:40.975 [http-nio-8080-exec-2] INFO  com.org.mollcol.controller.UserController - insert user:UserPO(userId=null, userName=mollcol, firstName=null, lastName=null, email=1qwe8d11id5@qq.com, password=1223456, dateOfBirth=1998-10-21, registrationDate=null)
+2024-03-14 14:36:40.989 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-14 14:36:41.035 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-14 14:42:25.587 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:42:25.588 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-14 14:42:25.591 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-14 14:43:41.977 [main] INFO  com.org.mollcol.FirstApplication - Starting FirstApplication using Java 1.8.0_402 on MacBook-Pro.local with PID 8665 (/Users/mollcol/MyTask/first/target/classes started by mollcol in /Users/mollcol/MyTask/first)
+2024-03-14 14:43:41.978 [main] INFO  com.org.mollcol.FirstApplication - No active profile set, falling back to default profiles: default
+2024-03-14 14:43:42.321 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-03-14 14:43:42.325 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:43:42.325 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-14 14:43:42.325 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-03-14 14:43:42.345 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-14 14:43:42.345 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 350 ms
+2024-03-14 14:43:42.524 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:43:42.594 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:43:42.627 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-14 14:43:42.632 [main] INFO  com.org.mollcol.FirstApplication - Started FirstApplication in 0.832 seconds (JVM running for 1.034)
+2024-03-14 14:43:50.884 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-14 14:43:50.884 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-14 14:43:50.885 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-03-14 14:43:50.917 [http-nio-8080-exec-1] INFO  com.org.mollcol.controller.UserController - insert user:UserPO(userId=null, userName=mollcol, firstName=null, lastName=null, email=1qwe8qd11id5@qq.com, password=1223456, dateOfBirth=1998-10-21, registrationDate=null)
+2024-03-14 14:43:50.932 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-14 14:43:50.972 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-14 14:45:36.904 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:45:36.906 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-14 14:45:36.911 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-14 14:45:37.985 [main] INFO  com.org.mollcol.FirstApplication - Starting FirstApplication using Java 1.8.0_402 on MacBook-Pro.local with PID 8691 (/Users/mollcol/MyTask/first/target/classes started by mollcol in /Users/mollcol/MyTask/first)
+2024-03-14 14:45:37.986 [main] INFO  com.org.mollcol.FirstApplication - No active profile set, falling back to default profiles: default
+2024-03-14 14:45:38.329 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-03-14 14:45:38.333 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:45:38.333 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-14 14:45:38.333 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-03-14 14:45:38.354 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-14 14:45:38.354 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 352 ms
+2024-03-14 14:45:38.550 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:45:38.624 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:45:38.660 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-14 14:45:38.665 [main] INFO  com.org.mollcol.FirstApplication - Started FirstApplication in 0.86 seconds (JVM running for 1.063)
+2024-03-14 14:45:43.437 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-14 14:45:43.437 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-14 14:45:43.438 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-03-14 14:45:43.468 [http-nio-8080-exec-1] INFO  com.org.mollcol.controller.UserController - insert user:UserPO(userId=null, userName=mollcol, firstName=null, lastName=null, email=1qwe8qd1id5@qq.com, password=1223456, dateOfBirth=1998-10-21, registrationDate=null)
+2024-03-14 14:45:43.481 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-14 14:45:43.520 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-14 14:46:35.049 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:46:35.050 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-14 14:46:35.057 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-14 14:46:36.575 [main] INFO  com.org.mollcol.FirstApplication - Starting FirstApplication using Java 1.8.0_402 on MacBook-Pro.local with PID 8719 (/Users/mollcol/MyTask/first/target/classes started by mollcol in /Users/mollcol/MyTask/first)
+2024-03-14 14:46:36.576 [main] INFO  com.org.mollcol.FirstApplication - No active profile set, falling back to default profiles: default
+2024-03-14 14:46:36.905 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-03-14 14:46:36.908 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:46:36.909 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-14 14:46:36.909 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-03-14 14:46:36.929 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-14 14:46:36.929 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 336 ms
+2024-03-14 14:46:37.101 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:46:37.172 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:46:37.206 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-14 14:46:37.211 [main] INFO  com.org.mollcol.FirstApplication - Started FirstApplication in 0.811 seconds (JVM running for 1.023)
+2024-03-14 14:46:39.458 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-14 14:46:39.459 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-14 14:46:39.459 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-03-14 14:46:39.490 [http-nio-8080-exec-2] INFO  com.org.mollcol.controller.UserController - insert user:UserPO(userId=null, userName=mollcol, firstName=null, lastName=null, email=1qwe85@qq.com, password=1223456, dateOfBirth=1998-10-21, registrationDate=null)
+2024-03-14 14:46:39.503 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-14 14:46:39.542 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-14 14:46:53.235 [http-nio-8080-exec-4] INFO  com.org.mollcol.controller.UserController - insert user:UserPO(userId=null, userName=mollcol, firstName=null, lastName=null, email=1qwe8o5@qq.com, password=1223456, dateOfBirth=1998-10-21, registrationDate=null)
+2024-03-14 14:50:32.264 [main] INFO  com.org.mollcol.FirstApplication - Starting FirstApplication using Java 1.8.0_402 on MacBook-Pro.local with PID 8768 (/Users/mollcol/MyTask/first/target/classes started by mollcol in /Users/mollcol/MyTask/first)
+2024-03-14 14:50:32.265 [main] INFO  com.org.mollcol.FirstApplication - No active profile set, falling back to default profiles: default
+2024-03-14 14:50:32.624 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-03-14 14:50:32.627 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:50:32.628 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-14 14:50:32.628 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-03-14 14:50:32.647 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-14 14:50:32.647 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 355 ms
+2024-03-14 14:50:32.817 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:50:32.887 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:50:32.920 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-14 14:50:32.926 [main] INFO  com.org.mollcol.FirstApplication - Started FirstApplication in 0.84 seconds (JVM running for 1.047)
+2024-03-14 14:50:40.553 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-14 14:50:40.554 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-14 14:50:40.555 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-03-14 14:50:40.585 [http-nio-8080-exec-1] INFO  com.org.mollcol.controller.UserController - insert user:UserPO(userId=null, userName=mollcol, firstName=null, lastName=null, email=1qwe8全球o5@qq.com, password=1223456, dateOfBirth=1998-10-21, registrationDate=null)
+2024-03-14 14:50:40.599 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-14 14:50:40.638 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-14 14:51:00.324 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:51:00.325 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-14 14:51:00.330 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-14 14:51:01.424 [main] INFO  com.org.mollcol.FirstApplication - Starting FirstApplication using Java 1.8.0_402 on MacBook-Pro.local with PID 8789 (/Users/mollcol/MyTask/first/target/classes started by mollcol in /Users/mollcol/MyTask/first)
+2024-03-14 14:51:01.425 [main] INFO  com.org.mollcol.FirstApplication - No active profile set, falling back to default profiles: default
+2024-03-14 14:51:01.766 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-03-14 14:51:01.769 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:51:01.770 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-14 14:51:01.770 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-03-14 14:51:01.790 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-14 14:51:01.790 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 346 ms
+2024-03-14 14:51:01.966 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:51:02.034 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:51:02.066 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-14 14:51:02.071 [main] INFO  com.org.mollcol.FirstApplication - Started FirstApplication in 0.827 seconds (JVM running for 1.028)
+2024-03-14 14:51:35.366 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:51:36.436 [main] INFO  com.org.mollcol.FirstApplication - Starting FirstApplication using Java 1.8.0_402 on MacBook-Pro.local with PID 8807 (/Users/mollcol/MyTask/first/target/classes started by mollcol in /Users/mollcol/MyTask/first)
+2024-03-14 14:51:36.437 [main] INFO  com.org.mollcol.FirstApplication - No active profile set, falling back to default profiles: default
+2024-03-14 14:51:36.789 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-03-14 14:51:36.792 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:51:36.792 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-14 14:51:36.792 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-03-14 14:51:36.811 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-14 14:51:36.811 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 355 ms
+2024-03-14 14:51:36.990 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-14 14:51:37.064 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-14 14:51:37.097 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-14 14:51:37.106 [main] INFO  com.org.mollcol.FirstApplication - Started FirstApplication in 0.854 seconds (JVM running for 1.055)
+2024-03-14 14:51:45.106 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-14 14:51:45.107 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-14 14:51:45.107 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-03-14 14:51:45.132 [http-nio-8080-exec-1] INFO  com.org.mollcol.controller.UserController - insert user:UserPO(userId=null, userName=mollcol, firstName=null, lastName=null, email=1qwe8全o5@qq.com, password=1223456, dateOfBirth=1998-10-21, registrationDate=null)
+2024-03-14 14:51:45.144 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-14 14:51:45.187 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-14 15:00:25.991 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-14 15:00:25.992 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-14 15:00:25.998 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
