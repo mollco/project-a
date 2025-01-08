@@ -1,5 +1,6 @@
 package com.lxy.system.controller;
 
+import com.lxy.common.model.po.Result;
 import com.lxy.system.model.po.UserPO;
 import com.lxy.system.service.UserService;
 import org.slf4j.Logger;
@@ -20,9 +21,9 @@ public class UserController {
     private UserService userService;
 
     @RequestMapping(value = "/register", method = RequestMethod.POST)
-    public Result int insert(@RequestBody UserPO userPO) {
+    public Result insert(@RequestBody UserPO userPO) {
         logger.info("register user:{}", userPO);
-        return userService.register(userPO);
+        return Result.success(userService.register(userPO));
     }
 
     @RequestMapping(value = "/selectUser", method = RequestMethod.POST)
